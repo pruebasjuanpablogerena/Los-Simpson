@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MisLinks" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <!-- Fondo azul al arrancar para evitar un destello blanco antes del splash -->
+        <item name="android:windowBackground">@color/splash_blue</item>
+    </style>
+</resources>

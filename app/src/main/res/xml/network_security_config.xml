@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Solo certificados del sistema (ignora certificados instalados por el usuario).
+         El tráfico http lo bloquea la propia app, salvo en "modo compatibilidad" (bloqueo pausado). -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
